@@ -31,7 +31,7 @@ function About() {
   return (
     <div>
       <nav class="about_nav navbar navbar-expand-lg">
-        <div class="container">
+        <div class="container container-fluid">
           <Link to={`/`}>
             <img class="repiat" src={repiat} alt="logo" />
           </Link>

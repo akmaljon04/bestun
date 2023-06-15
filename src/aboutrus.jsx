@@ -33,7 +33,7 @@ function About() {
   return (
     <div>
       <nav class="about_nav navbar navbar-expand-lg">
-        <div class="container">
+        <div class="container container-fluid">
             <Link to={`/rus`}>
               <img class="repiat" src={repiat} alt="logo" />
             </Link>
@@ -69,7 +69,7 @@ function About() {
               <Link className="linguabout" to={`/about`}>
               Анг
             </Link>
-            <button class="logIn2 bor22 about_hov">
+            <button class="logIn2 bor22 about_hov marg">
               <i class="fa-regular fa-user user_black about_hov"></i>
               войти 
             </button>

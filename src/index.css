@@ -491,6 +491,21 @@ a {
 .footer_btn:active {
   transform: translateY(2px);
 }
+.top-mar {
+  position: relative;
+  left: 45px;
+}
+.marg{
+  position: relative;
+  left: 55px;
+}
+.about_li {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 100px;
+}
 footer {
   margin-top: 80px;
   padding-top: 30px;
@@ -573,13 +588,7 @@ footer {
   overflow: hidden;
   border: 2px solid black;
 }
-.nav__toggler div {
-  width: 2.5rem;
-  height: 0.2rem;
-  margin: 0.4rem;
-  background: rgb(204, 204, 204);
-  transition: 0.3s ease-in;
-}
+
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .container {
     width: 350px;

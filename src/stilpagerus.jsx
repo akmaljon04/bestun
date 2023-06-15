@@ -8,7 +8,7 @@ function Stilpage() {
   return (
     <div className='Stilpage'>
       <nav class="about_nav navbar navbar-expand-lg">
-        <div class="container">
+        <div class="container container-fluid">
             <Link to={`/`}>
               <img class="repiat" src={repiat} alt="logo" />
             </Link>
@@ -45,7 +45,7 @@ function Stilpage() {
               <Link className="linguabout left-log" to={`/stilpage`}>
               Анг
             </Link>
-            <button class="logIn2 bor22 about_hov ">
+            <button class="logIn2 bor22 about_hov marg ">
               <i class="fa-regular fa-user user_black about_hov"></i>
               войти 
             </button>
